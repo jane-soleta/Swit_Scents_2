@@ -1,0 +1,21 @@
+/*CSS Style Sheet*/
+
+
+/*change font color*/
+
+
+body {color:mediumvioletred;}
+/*change font size*/
+p{font-size: 30px;}
+
+/*change font type*/
+
+h1, h2 {font-family:cursive; font-size:50px}
+
+body {
+    background-color: #FFE3E6; /* Change this to any color */
+    margin: 0;
+    padding: 0;
+    height: 100%;}
+
+
