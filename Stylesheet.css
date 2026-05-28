@@ -5,6 +5,34 @@
 
 
 body {color:mediumvioletred;}
+
+        nav {
+            background-color: #00FFFF;
+            padding: 15px;
+            text-align: center; 
+            /* Centers the links */
+        }
+
+        nav a {
+            color:#FF00FF;
+            text-decoration: none;
+            margin-right: 20px;
+            font-family: cursive;
+            font-size: 25px;
+            transition: 0.3s;
+        }
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 160px; /* Changes distance between links */
+}
+
+        nav a:hover {
+            color: #00bfff;
+        }
+    
 /*change font size*/
 p{font-size: 30px;}
 
