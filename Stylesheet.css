@@ -43,7 +43,7 @@ h1, h2 {font-family:cursive; font-size:50px}
 
 /* Carousel Container */
 .carousel-container {
-    width: 960x;
+    width: 960px;
     height: 640px;
     margin: 30px auto;
     overflow: hidden;
