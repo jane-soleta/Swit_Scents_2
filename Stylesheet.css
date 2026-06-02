@@ -40,10 +40,60 @@ p{font-size: 30px;}
 
 h1, h2 {font-family:cursive; font-size:50px}
 
+
+/* Carousel Container */
+.carousel-container {
+    width: 960x;
+    height: 640px;
+    margin: 30px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+/* Track Holding All Slides */
+.carousel-track {
+    display: flex;
+    width: 400%; /* 4 images */
+    height: 100%;
+    animation: slideCarousel 16s infinite;
+}
+
+/* Individual Images */
+.carousel-track img {
+    width: 25%; /* 100% ÷ 4 images */
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Slide Animation */
+@keyframes slideCarousel {
+    0%, 20% {
+        transform: translateX(0);
+    }
+
+    25%, 45% {
+        transform: translateX(-25%);
+    }
+
+    50%, 70% {
+        transform: translateX(-50%);
+    }
+
+    75%, 95% {
+        transform: translateX(-75%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
 body {
     background-color: #FFE3E6; /* Change this to any color */
     margin: 0;
     padding: 0;
     height: 100%;}
-
+    
+    
 
